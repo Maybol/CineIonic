@@ -13,7 +13,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     if (window.cordova && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
       cordova.plugins.Keyboard.disableScroll(true);
-
     }
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
@@ -67,7 +66,26 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'PlaylistCtrl'
       }
     }
-  });
+  })
+  .state('app.pag_principal', {
+    url: '/pag_principal',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/pag_principal.html',
+        controller: 'PagPrincipalCtrl'
+      }
+    }
+  })
+  .state('app.videos', {
+    url: '/videos',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/videos.html',
+        controller: 'VideosCtrl'
+      }
+    }
+  })
+  ;
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/playlists');
 });

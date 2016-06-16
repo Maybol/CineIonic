@@ -53,4 +53,14 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-});
+})
+
+
+.controller('PagPrincipalCtrl', function($scope, $stateParams) {
+})
+
+.controller('VideosCtrl', function($scope, $stateParams) {
+})
+
+
+;
