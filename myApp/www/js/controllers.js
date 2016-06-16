@@ -62,12 +62,5 @@ angular.module('starter.controllers', [])
 .controller('VideosCtrl', function($scope, $stateParams) {
 })
 
-.controller('ResenaCtrl', function($scope, $stateParams) {
-})
 
-.controller('PerfilCtrl', function($scope, $stateParams) {
-})
-
-.controller('MapaCtrl', function($scope, $stateParams) {
-})
 ;
