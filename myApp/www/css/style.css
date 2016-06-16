@@ -1,1 +1,25 @@
 /* Empty. Add your own CSS if you like */
+.bar.bar-stable{
+	border-color: #FFF;
+	background-color: red;	
+}
+.bar.bar-stable .title{
+	color: #FFF;	
+}
+.bar-stable .button.button-clear{
+	color: #FFF;
+}
+
+.center{
+	text-align: center;
+}
+
+.bienvenida{
+	font-weight: bold;
+	font-size: 20px;
+}
+.item-image img:first-child, .item-image .list-img{
+	width: 50%;
+	height: 20%;
+	vertical-align: middle;
+}
